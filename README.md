@@ -14,5 +14,5 @@
 
 ## Technologies Used
 
-<img src="./icons/html.svg" Alt="HTML logo" style="width:10%; margin-right: 30px">
-<img src="./icons/css.svg" Alt="CSS logo" style="width:10%">
+<img src="./icons/html.svg" Alt="HTML logo" style="width:10%; margin-right: 30px; display: inline-block">
+<img src="./icons/css.svg" Alt="CSS logo" style="width:10%; display: inline-block">
