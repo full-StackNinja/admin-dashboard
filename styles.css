@@ -33,7 +33,7 @@ body {
      grid-template-columns: 1fr 4fr;
      grid-template-areas:
           "sidebar header"
-          "sidebar content";
+          "sidebar content"
 }
 
 .header {
@@ -41,10 +41,11 @@ body {
      grid-area: header;
      display: grid;
      background-color: #64748b;
-     box-shadow: 5px 5px #e2e8f0;
      color: #ffffff;
      grid-template-columns: 1fr;
      gap: 10px;
+     /* position: relative; */
+     z-index: 1;
 }
 
 .header .top-row {
@@ -91,7 +92,6 @@ input:focus {
 }
 
 .sidebar {
-     height: 100%;
      grid-area: sidebar;
      padding-left: 20px;
      background-color: #0ea5e9;
@@ -135,11 +135,26 @@ input:focus {
      background-color: #ffffff;
      height: 200px;
      display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto auto 1fr;
      gap: 5px;
      align-content: start;
+     border-left: 8px solid  #d97706;
      border-radius: 8px;
-     box-shadow: -8px 0 #d97706, 2px 2px 2px #cbd5e1;
 }
+
+.article .social-icons{
+     justify-self: end;
+     align-self:flex-end;
+     display: grid;
+     gap: 20px;
+     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article, .trending, .announcements, .header{
+     box-shadow: 3px 3px 5px #9ca3af;
+}
+
 .article .heading {
      font-size: 1.2rem;
      font-weight: 700;
@@ -167,7 +182,6 @@ input:focus {
 }
 
 .trending {
-     height: 100%;
      display: grid;
      background-color: white;
      padding: 20px;
@@ -185,5 +199,4 @@ input:focus {
 
 .user p:first-child {
      color: black;
-     /* font-weight: 700; */
 }
