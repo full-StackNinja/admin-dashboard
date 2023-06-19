@@ -1,15 +1,9 @@
 # Admin Dashboard
 
 ## [Click Here](https://full-stackninja.github.io/admin-dashboard/) for Live Preview
-
----
-
 ## Screen Shot of the Page
 
 ![alt text](./icons/admin-dashboard.png)
-
----
-
 ## Project Details
 
 -    This project is the part of the Full Stack Web Development Course Offered by [The Odin project.](https://theodinproject.com)
