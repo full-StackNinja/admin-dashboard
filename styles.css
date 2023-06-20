@@ -169,8 +169,8 @@ input:focus {
 
 .news-updates {
      display: grid;
-     gap: 40px;
-     align-items: start;
+     align-items:end;
+     grid-template-rows: auto 1fr;
 }
 
 .announcements {
