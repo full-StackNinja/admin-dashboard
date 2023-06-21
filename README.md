@@ -14,7 +14,7 @@
 
 ## Technologies Used
 
-<div class="container" style="display: flex; gap: 20px">
+<div class="container" style="display: flex; gap: 40px">
      <img src="./icons/html.svg" Alt="HTML logo" style="width:10%; margin-right: 30px; display: inline-block">
      <img src="./icons/css.svg" Alt="CSS logo" style="width:10%; display: inline-block">
 </div>
